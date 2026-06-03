@@ -89,4 +89,5 @@ def generate_shops():
             generate_cash_desk(shop_num, cash_num)
 
 
-generate_shops()
+if __name__ == "__main__":
+    generate_shops()
