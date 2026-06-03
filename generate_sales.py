@@ -55,7 +55,7 @@ def generate_cash_desk(shop_num, cash_num):
                 # Заносим в csv файл
                 writer.writerow(
                     {
-                        "num_shop": shop_num,
+                        "shop_num": shop_num,
                         "num_cash_desk": cash_num,
                         "dt": datetime.today().strftime("%Y-%m-%d"),
                         "doc_id": doc_id,
