@@ -24,7 +24,7 @@ database = PGDatabase(
 # SQL-запрос с плейсхолдерами
 INSERT_QUERY = """
     INSERT INTO sales_shops 
-    (shop_num, cash_num, dt, doc_id, item, category, amount, price, discount)
+    (shop_num, num_cash_desk, dt, doc_id, item, category, amount, price, discount)
     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
 """
 
