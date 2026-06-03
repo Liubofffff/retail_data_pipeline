@@ -27,7 +27,7 @@ def generate_cash_desk(shop_num, cash_num):
 
     with open(file_shop, "w", newline="", encoding="utf-8") as f:
         headers = [
-            "num_shop",
+            "shop_num",
             "num_cash_desk",
             "dt",
             "doc_id",
